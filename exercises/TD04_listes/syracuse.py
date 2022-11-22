@@ -52,3 +52,16 @@ def tempsVolListe(n_max,max=None):
 
 N=int(input("Temps de vol de 1 à : "))
 print("La liste de temps de vol de 1 à",N,"est :",tempsVolListe(N)[0],"et son maximum est",tempsVolListe(N)[1][0],"atteint en",tempsVolListe(N)[1][1])
+
+#7)
+
+def altitude(n_max):
+    max=0,0
+    for i in range(1,n_max-1):
+        for k in syracuse(i):
+            if max[0] < k:
+                max=k,i
+    return max
+
+N=int(input("Altitude de 1 jusqu'à : "))
+print("L'altitude maximale de",N,"est :",altitude(N)[0],"atteint en :",altitude(N)[1])
