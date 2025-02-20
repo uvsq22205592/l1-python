@@ -1,5 +1,5 @@
 #exercice 1
-print("Exercice 1 :")
+print("Exercice 1 :\n")
 
 a = "9476"
 print(len(a))
@@ -7,7 +7,7 @@ print(len(a))
 
 print('')
 #exercice2
-print("Exercice 2")
+print("Exercice 2\n")
 
 saint_nectaire = True
 salers = False
@@ -22,7 +22,7 @@ else:
 
 print('')
 #exercice 3
-print("Exercice 3")
+print("Exercice 3\n")
 
 from random import *
 
