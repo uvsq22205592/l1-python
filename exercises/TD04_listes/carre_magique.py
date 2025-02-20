@@ -40,7 +40,7 @@ afficheCarre(L)
 def afficheCarre(carre):
     for i in carre:
         print(i)
-    print("")
+    print("\n")
 
 afficheCarre(carre_mag)
 afficheCarre(carre_pas_mag)
