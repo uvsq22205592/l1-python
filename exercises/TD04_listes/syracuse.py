@@ -10,7 +10,7 @@ def syracuse(n):
     return l
 
 N=int(input("Syracuse de : "))
-print("Syracuse de",N,"nous donne",syracuse(N))
+print("Syracuse de",N,"nous donne :",syracuse(N))
 
 #3)
 
